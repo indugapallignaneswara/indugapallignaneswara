@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning **django, neural networks**
 
-- 💬 Ask me about **Database, sql, python**
+- 💬 Ask me about **Database, sql, python, matlab**
 
 - 📫 How to reach me **li8054@srmist.edu.in**
 
