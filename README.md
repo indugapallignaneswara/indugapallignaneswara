@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Lakshmi Gnaneswara Prasadu Indugapalli</h1>
 <h3 align="center">A passionate Computer engineer from India</h3>
 
-- 🌱 I’m currently learning **django, neural networks**
+- 🌱 I’m currently learning **neural networks**
 
 - 💬 Ask me about **Database, sql, python, matlab**
 
