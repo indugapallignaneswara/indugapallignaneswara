@@ -54,15 +54,6 @@ class Gnaneswara:
 
 **Open Source** — Tools and experiments at the intersection of vision and language.
 
-```yaml
-# current setup
-gpu:       NVIDIA RTX 3090 (24GB)
-framework: PyTorch 2.x
-tracking:  Weights & Biases
-approach:  "if it's not broken,
-            you haven't experimented enough"
-```
-
 </td>
 </tr>
 </table>
