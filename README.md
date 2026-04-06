@@ -153,13 +153,7 @@ approach:  "if it's not broken,
 
 <br/>
 
-<a href="https://github.com/indugapallignaneswara">
-<img src="https://github-readme-stats.vercel.app/api?username=indugapallignaneswara&show_icons=true&hide_border=true&bg_color=0f0c29,302b63,24243e&title_color=a855f7&icon_color=a855f7&text_color=c9d1d9&count_private=true&ring_color=a855f7" height="180" />
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/indugapallignaneswara">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=indugapallignaneswara&hide_border=true&background=0f0c29,302b63,24243e&ring=a855f7&fire=a855f7&currStreakLabel=a855f7&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" height="180" />
-</a>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=indugapallignaneswara&" alt="indugapallignaneswara" /></p>
 
 </div>
 
