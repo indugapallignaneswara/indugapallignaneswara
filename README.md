@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Custom animated SVG header — upload header.svg to your profile repo -->
-<img src="https://raw.githubusercontent.com/indugapallignaneswara/indugapallignaneswara/main/header.svg" width="100%" alt="Gnaneswara Indugapalli — AI Engineer" />
+<img src="" width="100%" alt="Gnaneswara Indugapalli — AI Engineer" />
 
 </div>
 
