@@ -5,14 +5,6 @@
 
 </div>
 
-<div align="center">
-
-```
- experiment. break things. learn. repeat.
-```
-
-</div>
-
 <br/>
 
 <div align="center">
@@ -174,12 +166,6 @@ approach:  "if it's not broken,
 <br/>
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=indugapallignaneswara&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=10" width="95%" />
-</div>
-
-<br/>
-
-<div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=indugapallignaneswara&bg_color=0f0c29&color=c9d1d9&line=a855f7&point=ffffff&area=true&area_color=a855f7&hide_border=true&custom_title=Contribution%20Timeline" width="95%" />
 </div>
 
@@ -195,9 +181,4 @@ approach:  "if it's not broken,
 
 <br/>
 
-<div align="center">
 
-<!-- Footer reuses the header SVG flipped for symmetry -->
-<img src="https://raw.githubusercontent.com/indugapallignaneswara/indugapallignaneswara/main/header.svg" width="100%" />
-
-</div>
