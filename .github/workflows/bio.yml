@@ -1,0 +1,44 @@
+name: bio
+
+on:
+  schedule:
+    - cron: "0 3 * * *"      # 03:00 UTC daily (08:30 IST)
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/build_bio.py"
+      - ".github/workflows/bio.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bio
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate bio SVGs
+        env:
+          GITHUB_RUN_NUMBER: ${{ github.run_number }}
+        run: python scripts/build_bio.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain assets)" ]]; then
+            git add assets/bio-light.svg assets/bio-dark.svg
+            git commit -m "bio: sync $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No changes to bio SVGs."
+          fi

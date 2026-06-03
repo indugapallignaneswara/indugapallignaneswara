@@ -1,35 +1,9 @@
-```python
-from dataclasses import dataclass
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/bio-dark.svg">
+  <img alt="Lakshmi Indugapalli" src="assets/bio-light.svg">
+</picture>
 
-
-@dataclass(frozen=True, slots=True)
-class Engineer:
-    """An AI engineer who ships."""
-
-    name:     str = "Lakshmi Indugapalli"
-    role:     str = "AI Engineer"
-    based_in: str = "Bangalore, IN"
-
-    works_on: tuple[str, ...] = (
-        "vision-language models in production",
-        "multi-agent coordination infrastructure",
-        "reinforcement learning environments",
-        "retrieval & generative pipelines",
-    )
-
-    stack: tuple[str, ...] = (
-        "python  ·  go  ·  typescript",
-        "pytorch  ·  cuda  ·  vllm  ·  flash-attn",
-        "fastapi  ·  postgres  ·  nats  ·  docker",
-        "ruff  ·  mypy --strict  ·  pytest",
-    )
-
-    believes: str = "Long horizon. Short sprints."
-
-
-me = Engineer()
-```
-
+<p>
 <sub>
 <a href="https://medium.com/@indugapallignaneswara">writing</a>
 &nbsp;·&nbsp;
@@ -39,3 +13,4 @@ me = Engineer()
 &nbsp;·&nbsp;
 <a href="https://www.linkedin.com/in/gnaneswara-indugapalli-367924252/">linkedin</a>
 </sub>
+</p>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-label="Lakshmi Indugapalli — bio">
+  <style><![CDATA[
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Cascadia Mono', 'Roboto Mono', monospace; }
+    .bg       { fill: #0c0a09; }
+    .name     { fill: #fafaf9;     font-size: 28px; font-weight: 700; letter-spacing: 0.4px; }
+    .role     { fill: #a8a29e; font-size: 13px; }
+    .tag      { fill: #a855f7; font-size: 14px; font-style: italic; }
+    .label    { fill: #a8a29e; font-size: 10.5px; letter-spacing: 2px; }
+    .value    { fill: #fafaf9;     font-size: 13px; }
+    .value-em { fill: #fafaf9;     font-size: 13px; font-style: italic; }
+    .meta     { fill: #a8a29e; font-size: 10px; letter-spacing: 0.5px; }
+    .rule     { stroke: #292524; stroke-width: 1; }
+    .dot      { fill: #a855f7; animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.35; }
+      50%      { opacity: 1.0; }
+    }
+  ]]></style>
+
+  <rect class="bg" width="720" height="380" rx="12" ry="12"/>
+
+  <!-- header -->
+  <text class="name" x="40" y="62">lakshmi indugapalli</text>
+  <text class="role" x="40" y="84">ai engineer  ·  bangalore</text>
+  <text class="tag"  x="40" y="118">long horizon  ·  short sprints</text>
+
+  <line class="rule" x1="40" y1="146" x2="680" y2="146"/>
+
+  <!-- shipping -->
+  <text class="label" x="40"  y="178">SHIPPING</text>
+  <text class="value" x="180" y="178">vision-language systems</text>
+  <text class="value" x="180" y="198">multi-agent infrastructure</text>
+  <text class="value" x="180" y="218">reinforcement learning environments</text>
+
+  <!-- writing -->
+  <text class="label"    x="40"  y="256">WRITING</text>
+  <text class="value-em" x="180" y="256">Inside the harness: how Claude Code and Cursor turn a m…</text>
+
+  <line class="rule" x1="40" y1="296" x2="680" y2="296"/>
+
+  <!-- footer -->
+  <circle class="dot" cx="46" cy="336" r="4"/>
+  <text class="meta" x="60" y="340">synced 2026-06-03  ·  build 26.06.03</text>
+</svg>
