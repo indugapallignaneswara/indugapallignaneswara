@@ -48,7 +48,7 @@ def truncate(s: str, n: int) -> str:
     return s if len(s) <= n else s[: n - 1].rstrip() + "…"
 
 
-SVG_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-label="Lakshmi Indugapalli — bio">
+SVG_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-label="Gnaneswara Indugapalli — bio">
   <style><![CDATA[
     text {{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Cascadia Mono', 'Roboto Mono', monospace; }}
     .bg       {{ fill: {bg}; }}
@@ -70,7 +70,7 @@ SVG_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" 
   <rect class="bg" width="720" height="380" rx="12" ry="12"/>
 
   <!-- header -->
-  <text class="name" x="40" y="62">lakshmi indugapalli</text>
+  <text class="name" x="40" y="62">gnaneswara indugapalli</text>
   <text class="role" x="40" y="84">ai engineer  ·  bangalore</text>
   <text class="tag"  x="40" y="118">long horizon  ·  short sprints</text>
 

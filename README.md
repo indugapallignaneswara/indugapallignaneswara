@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/bio-dark.svg">
-  <img alt="Lakshmi Indugapalli" src="assets/bio-light.svg">
+  <img alt="Gnaneswara Indugapalli" src="assets/bio-light.svg">
 </picture>
 
 <p>
